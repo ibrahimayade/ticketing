@@ -10,13 +10,15 @@
     </parent>
     <groupId>com.dreamsoft</groupId>
     <artifactId>ticketing</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <name>ticketing</name>
     <description>ticketing</description>
+
     <properties>
         <java.version>17</java.version>
         <springdoc.version>1.8.0</springdoc.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -128,6 +130,19 @@
         </dependency>
         <!-- FIN Documentation -->
     </dependencies>
+
+<!--    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Releases</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Nexus Snapshot</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>-->
 
     <build>
         <plugins>
