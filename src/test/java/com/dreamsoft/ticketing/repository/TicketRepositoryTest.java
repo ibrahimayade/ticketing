@@ -3,6 +3,7 @@ package com.dreamsoft.ticketing.repository;
 import com.dreamsoft.ticketing.entity.Ticket;
 import com.dreamsoft.ticketing.entity.User;
 import com.dreamsoft.ticketing.entity.enumerations.Status;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,8 +16,9 @@ import org.springframework.test.context.TestPropertySource;
 
 import java.util.Optional;
 
-import static org.junit.Assert.assertThrows;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 @ActiveProfiles("test")
 @AutoConfigureTestDatabase
