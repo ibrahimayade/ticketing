@@ -20,6 +20,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
+        <sonar.login>squ_8bb20870428c10c79daab73af1a493709444e40b</sonar.login>
         <sonar.projectKey>com.dreamsoft:ticketing</sonar.projectKey> <!-- Identifiant du projet SonarQube -->
         <sonar.projectName>Ticketing</sonar.projectName> <!-- Nom du projet SonarQube -->
         <sonar.projectVersion>${project.version}</sonar.projectVersion> <!-- Version du projet -->
